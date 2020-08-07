@@ -15,11 +15,6 @@ html {
   box-sizing: inherit;
 }
 
-.title,
-.nav{
- text-align: center
-}
-
 .container,
 .container-fluid,
 .container-sm,
