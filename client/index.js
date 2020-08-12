@@ -1,22 +1,24 @@
 var timeout=500;
 var closetimer=0;
 var ddmenuitem=0;
+var row = 2;
+var column = 3;
 
 // open hidden layer
 function mopen(id){
  // cancel close timer
  mcancelclosetime();
 // close old layer
- if(ddmenuitem) ddmenuitem.style.visibility='hidden';
+ if(ddmenuitem) ddmenuitem.style.visibility="hidden";
  // get new layer and show it
  ddmenuitem = document.getElementById(id);
- ddmenuitem.style.visibility = 'visible';
+ ddmenuitem.style.visibility = "visible";
 }
 
 // close showed layer
 function mclose(){
 
- if(ddmenuitem) ddmenuitem.style.visibility = 'hidden';
+ if(ddmenuitem) ddmenuitem.style.visibility = "hidden";
 }
 
 // go close timer
@@ -38,5 +40,3 @@ function mcancelclosetime(){
 // close layer when click-out
 document.onclick = mclose;
 
-
- 

@@ -1,5 +1,9 @@
+body{
+ background-color: #00ffff;
+}
+
 .title,
-.nav{
+nav{
  text-align: center;
 }
 
